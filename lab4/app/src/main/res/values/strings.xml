@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MobilusLab</string>
+    <string name="title_main_tab">Home</string>
+    <string name="title_sec_tab">Lab 2</string>
+    <string name="title_third_tab">Lab 3</string>
+
+    <string name="main_text">"Ву В'єт Тунг \n Група IВ-83 \n ЗК IO-7303"</string>
+</resources>

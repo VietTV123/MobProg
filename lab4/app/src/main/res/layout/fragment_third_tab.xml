@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:ems="10"
-        android:hint="Movie title..."
+        android:hint="Book title..."
         android:inputType="text"
         android:textColor="#1C1C1C"
         app:layout_constraintBottom_toBottomOf="parent"

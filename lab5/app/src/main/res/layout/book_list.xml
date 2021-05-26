@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="8dip"
+    android:paddingTop="1dip"
+    android:paddingEnd="8dip"
+    android:paddingBottom="1dip">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150dip"
+        android:layout_height="200dip"
+        android:src="@drawable/no_image" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/bookTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:maxLines="4"
+            android:text="Title"
+            android:textAlignment="center"
+            android:textColor="@color/main_color"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bookPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textColor="@color/secondary_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bookTitle" />
+
+        <TextView
+            android:id="@+id/bookSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtitle"
+            android:textColor="@color/secondary_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bookPrice" />
+
+        <TextView
+            android:id="@+id/bookIsbn13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Isbn13"
+            android:textColor="@color/secondary_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bookSubtitle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
+
